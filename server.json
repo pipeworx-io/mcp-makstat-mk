@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/makstat-mk",
+  "title": "Makstat Mk",
+  "description": "MakStat — State Statistical Office of North Macedonia, PxWeb MCP.",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/makstat-mk",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-makstat-mk",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/makstat-mk/mcp"
+    }
+  ]
+}
