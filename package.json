@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-makstat-mk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MakStat — State Statistical Office of North Macedonia, PxWeb MCP.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-makstat-mk": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "makstat-mk"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-makstat-mk"
+    "url": "git+https://github.com/pipeworx-io/mcp-makstat-mk.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-2b45caf61435383ae774e3782cea0177c596545a55dc467de3acbe8fc6c50514",
+    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
   }
 }
