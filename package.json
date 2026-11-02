@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-makstat-mk",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "MakStat — State Statistical Office of North Macedonia, PxWeb MCP.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "makstat-mk",
     "gatewaySlug": "makstat-mk",
-    "sourceHash": "v1-56af4dc5a4a146ed161a34ae798995a74bc76d6bc50f6120bb190eb885e70bf0",
-    "sourceCommit": "5c89d6abb778d45da5d92002eb251978622bedf9"
+    "sourceHash": "v1-2338b826e7b2e3cf49575bb515209cb142bfa2a5efb55acd66c9f626b2622c98",
+    "sourceCommit": "236b0a46d91f343fe094da9f499c378e88f78312"
   }
 }
